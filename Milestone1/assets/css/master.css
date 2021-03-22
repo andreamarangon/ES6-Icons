@@ -4,6 +4,9 @@
   border: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+}
 
 h1 {
   color: #2AB1DD;
@@ -31,7 +34,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 100vh;
+  height: 84vh;
   padding: 20px;
 }
 
@@ -56,4 +59,12 @@ i {
 
 .purple {
   color: #800080;
+}
+
+.container-select{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2AB1DD;
 }
