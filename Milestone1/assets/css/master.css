@@ -4,3 +4,24 @@
   border: 0;
   box-sizing: border-box;
 }
+
+main {
+  background-color: #DDDDDD;
+}
+
+.card {
+  height: 100px;
+  width: 200px;
+  background-color: gray;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100vh;
+}

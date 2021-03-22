@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   const newArray = myFunction (myArray,3,5)
   console.log(newArray);
-  FILTER
+  // FILTER
   const myFunction = (array,a,b) => {
     const arrayFiltered = array.filter((element, index, array) =>{
       return index >=a &&index<= b
