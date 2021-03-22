@@ -99,13 +99,22 @@ $(document).ready(function () {
   	}
   ];
 
-
+  //MILESTONE 1 e 2
   icons.forEach((item, i) => {
+    //coloro le icone in pase al type(milestone 2)
+    let colore;
+    if (item.type == 'animal') {
+      colore = 'blue';
+    } else if (item.type == 'vegetable') {
+      colore = 'yellow';
+    } else {
+      colore = 'purple';
+    }
+    //destrutturizzo gli oggetti dell'array
     const {name,prefix,type,family} = item;
-    $('#icons').append(`<div class="card"><div class="logo-text"><i class="${item.family} ${item.prefix}${item.name}"></i><div>${item.name}</div></div></div>`)
+    //appendo il tutto in html
+    $('#icons').append(`<div class="card"><div class="logo-text"><i class="${item.family} ${item.prefix}${item.name} ${colore}"></i><div>${item.name}</div></div></div>`)
   });
 
-  // const [{name,prefix,type,family}]= icons;
-  console.log(icons);
 
 });

@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: #2AB1DD;
+  font-size: 50px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 main {
   background-color: #DDDDDD;
 }
@@ -13,27 +20,40 @@ main {
   height: 100px;
   width: 220px;
   background-color: #fff;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  box-shadow: 2px 2px 2px 1px #888888;
   border-radius: 15px;
 }
 
 #icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100vh;
+  padding: 20px;
 }
 
 i {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .logo-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-transform: uppercase;
+}
+
+.blue {
+  color: #0000FF;
+}
+
+.yellow {
+  color: #FFA500;
+}
+
+.purple {
+  color: #800080;
 }
